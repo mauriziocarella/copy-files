@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import {program} from 'commander';
 import fs from 'node:fs/promises';
 import chalk from 'chalk';
