@@ -1,0 +1,50 @@
+{
+  "name": "@mauriziocarella/copy-files",
+  "description": "Simple helper to copy files taking configuration from package.json",
+  "version": "1.0.1",
+  "license": "MIT",
+  "author": {
+    "email": "info@mauriziocarella.it",
+    "name": "Maurizio Carella",
+    "url": "https://github.com/mauriziocarella"
+  },
+  "homepage": "https://github.com/mauriziocarella/copy-files",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mauriziocarella/copy-files.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mauriziocarella/copy-files/issues",
+    "email": "info@mauriziocarella.it"
+  },
+  "keywords": [
+    "copy",
+    "copy-files",
+    "cli",
+    "package.json",
+    "helper"
+  ],
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "glob": "^10.3.10",
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.2"
+  }
+}
