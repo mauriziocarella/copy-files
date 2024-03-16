@@ -1,8 +1,9 @@
 {
   "name": "@mauriziocarella/copy-files",
   "description": "Simple helper to copy files taking configuration from package.json",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
+  "type": "module",
   "author": {
     "email": "info@mauriziocarella.it",
     "name": "Maurizio Carella",
